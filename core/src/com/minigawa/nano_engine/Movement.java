@@ -13,4 +13,14 @@ public class Movement {
     public int distance;       // distance in points according the object's rangeOfMotion
     public Interpolation transition;
 
+    public Movement(){
+
+    }
+
+    public Movement(Direction direction, int distance, Interpolation transition){
+        this.direction= direction;
+        this.distance= distance;
+        this.transition= transition;
+    }
+
 }
